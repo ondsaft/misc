@@ -1,0 +1,10 @@
+[user]
+	email = tomas.holmberg@windriver.com
+	name = Tomas Holmberg
+[core]
+	editor = emacs
+	excludesfile = /home/tholmber/.gitignore
+[color]
+	diff = auto
+	status = auto
+	branch = auto
