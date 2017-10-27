@@ -1,0 +1,6 @@
+apt update
+apt update --fix-missing
+apt install -y jq
+apt install -y btrfs-tools
+apt install -y git
+apt install -y python

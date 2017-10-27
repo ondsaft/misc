@@ -1,0 +1,9 @@
+git clone git://github.com/OverC/overc-installer.git -b master-oci
+
+cd overc-installer
+
+./lib/github-fetcher.py -b master-oci OverC meta-overc meta-cube/recipes-support/overc-utils/source/cube-ctl sbin/
+./lib/github-fetcher.py -b master-oci OverC meta-overc meta-cube/recipes-support/overc-utils/source/cube-cfg sbin/
+
+chmod +x sbin/cube-ctl
+chmod +x sbin/cube-cfg
